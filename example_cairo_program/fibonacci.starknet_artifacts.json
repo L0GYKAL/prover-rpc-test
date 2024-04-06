@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"r6jtu9acni5pa","package_name":"fibonacci","contract_name":"HelloStarknet","module_path":"fibonacci::HelloStarknet","artifacts":{"sierra":"fibonacci_HelloStarknet.contract_class.json","casm":"fibonacci_HelloStarknet.compiled_contract_class.json"}}]}
