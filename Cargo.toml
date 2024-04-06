@@ -1,0 +1,10 @@
+[package]
+name = "rpc_prover_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+madara-prover-rpc-client = { git = "https://github.com/L0GYKAL/madara-prover-api.git", version = "0.1.0" }
+tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
