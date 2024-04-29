@@ -11,7 +11,7 @@ async fn main() {
 pub async fn prove_cairo_program() -> () { //Result<(), Box<dyn Error>>
     let mut client = StarknetProverClient::connect("grpc://[::1]:8080").await.unwrap();
     let compiled_program = std::fs::read("example_cairo_program/fibonacci_HelloStarknet.compiled_contract_class.json").unwrap();
-    let params = std::fs::read("example_cairo_program/fibonacci/target/dev/fibonacci.starknet_artifacts.json").unwrap();
+    //let params = std::fs::read("example_cairo_program/fibonacci/target/dev/fibonacci.starknet_artifacts.json").unwrap();
 
     let programs = vec![compiled_program];
     let pies = vec![];
